@@ -37,13 +37,19 @@ public class Tortoise extends Thread {private static final int MILESTONES = 5;
             }
             try {
                 Thread.sleep(3000L);
+            }catch (InterruptedException e) {
+                System.err.println("The tortoise has lost the path!");
             }
 
-
-
-
-
         }
+        JOptionPane.showConfirmDialog(
+                null,
+                "The Tortoise has completed the race!",
+                "Tortoise",
+                JOptionPane.OK_CANCEL_OPTION
+        );
+    }
+}
 
 
 
