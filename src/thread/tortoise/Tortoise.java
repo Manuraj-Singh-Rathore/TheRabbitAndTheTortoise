@@ -10,7 +10,9 @@ public class Tortoise extends Thread {private static final int MILESTONES = 5;
         this.tortoise = new Thread(this, "Tortoise");
     }
 
-
+    public Thread getTortoise() {
+        return tortoise;
+    }
 }
 
 
