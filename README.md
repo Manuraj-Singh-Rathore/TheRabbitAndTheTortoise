@@ -3,7 +3,7 @@
 ## BCSC 1002 Object-Oriented Programming
 
 ### Multithreading Lab Task
-
+****
 ---
 **TASK**
 - Create a definition class for a "thread" in java, 
